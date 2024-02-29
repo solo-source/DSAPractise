@@ -33,5 +33,7 @@ public class test {
         for (int i = 0; i < resultArray.length; i++) {
             System.out.println(resultArray[i]);
         }
+
+        sc.close();
     }
 }
