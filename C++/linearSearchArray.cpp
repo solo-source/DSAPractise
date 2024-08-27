@@ -12,8 +12,8 @@ int main()
     cin >> search_element;
 
 
-    //sizeof() function give the any object in the form of total no of bytes
-    //that the object occupies in the memory. Thus sizeof(arr) gives output 44
+    //sizeof() function give the any type in the form of total no of bytes
+    //that the type occupies in the memory. Thus sizeof(arr) gives output 44
     //as there are 11 int values in the array that occupies a total of 44 bytes(4 bytes each).
     for (int i = 0; i < sizeof(arr) / 4; i++)
     {
