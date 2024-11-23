@@ -13,9 +13,9 @@ int main()
 	// cout<<++a;
 	// cout<<"\nNow the Value of a is "<<a;
 
-	/*
-	b = ++a + ++a + ++a;
 
+	b = (++a) + (++a) + (++a);
+	/*
 	Evaluation of ++a + ++a + ++a:
 
 	First ++a:
@@ -72,7 +72,7 @@ int main()
 	b = a + a++;
 	a++;
 	b += a;
-	*/
+	
 
 	//Trying with spplitting the expression.
 	a++;
@@ -85,6 +85,7 @@ int main()
 	b += a;
 	cout<<"\nValue of b now:\n"<<b;
 	cout<<"\n";
+	*/
 	cout<<a<<endl;
 	cout<<b<<endl;
 	//Its working fine and as expected now.
